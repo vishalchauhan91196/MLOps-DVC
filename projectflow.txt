@@ -28,5 +28,5 @@
 
 1. git log --oneline
 2. git checkout <commit-id> (fetch relevant git code)
-3. dvc pull (fetch corresponding data from dvc)
+3. dvc pull (fetch corresponding data from dvc) -> Making git and dvc in sync.
 
