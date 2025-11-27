@@ -8,6 +8,14 @@ data = {"Name": ["Vishal", "Payal", "Aditya"],
 
 df = pd.DataFrame(data)
 
+# Adding new row to df for v2
+new_row_data_1 = {"Name": "Sheetal", "Age": 45 , "City": "Australia"}
+df.loc[len(df)] = new_row_data_1
+
+# Adding new row to df for v3
+new_row_data_2 = {"Name": "Mahesh", "Age": 57 , "City": "Delhi"}
+df.loc[len(df)] = new_row_data_2
+
 data_dir="Data"
 os.makedirs(data_dir, exist_ok=True)
 file_path = os.path.join(data_dir, "sample_data.csv")

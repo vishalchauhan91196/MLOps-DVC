@@ -12,4 +12,10 @@
                         git commit -m "stop tracking Data" 
 
 8. dvc add Data/ (Data.dvc gets created)                
-9.         
+9. dvc status, dvc commit, dvc push (Push the data to S3)
+10. Make changes to code.py to append new data. Check changes by 'dvc status'.
+11. dvc commit (.dvc & Data.dvc gets changed)
+12. dvc push
+13. Make changes to code.py to append new data. Check changes by 'dvc status'.
+14. dvc commit (.dvc & Data.dvc gets changed again)
+15. dvc push
