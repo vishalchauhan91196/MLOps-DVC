@@ -1,0 +1,7 @@
+1. Create a code.py (Creates a Data Folder with csv file inside it)
+2. Do git add-commit-push before initializing DVC.
+3. pip install dvc
+4. dvc init (Creates .dvc, .dvcignore file)
+5. mkdir S3 (For this project, setting remote S3 as local)
+6. dvc remote add -d myremote S3
+7. dvc add Data/
