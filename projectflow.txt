@@ -19,3 +19,14 @@
 13. Make changes to code.py to append new data. Check changes by 'dvc status'.
 14. dvc commit (.dvc & Data.dvc gets changed again)
 15. dvc push
+
+
+
+-------------------------------------
+
+## ROLLBACK ##
+
+1. git log --oneline
+2. git checkout <commit-id> (fetch relevant git code)
+3. dvc pull (fetch corresponding data from dvc)
+
